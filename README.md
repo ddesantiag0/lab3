@@ -69,4 +69,8 @@ If those values change, how they change by the time the request is done processi
 
 In this screenshot, I have the server being started giving us the link, "http://localhost:5069" in the terminal. The first method in my code that is being called is handleRequest and the argument "URI url". The url is the localhost:5069 link that was provided in the terminal. This particular screenshot was made when it was reading the line, and determining if there is the "/" it will print out "Search Engine Activated". The link is empty and doesn't have anything but the server with the server number I had chosen in the terminal. If the URL link were to change values, like "/add?s" or "/search?s" it would create different outputs depending on the input, in less than seconds.
 
-![Image](./
+![Image](./LABREPORT2:ADD.png)
+
+In this screenshot, the server was already started and running. The method that was called was handleRequest and the argument url link was "http://localhost:5069/add?s=app". There was a / detected in the link which switched to the else statement. The program found the key word value "add" which passed the first else statement. The values being called or changed are, "=" because it split the weblink into 2 at the equal sign, then it added that the string word after the equal sign it, adds it to a query. If the value were to change whether it detects add or another word, it goes through a different else statement until it finds the corect keyword found or returns "404 not found"
+
+![Image](./LABREPORT2:SEARCH.png)
