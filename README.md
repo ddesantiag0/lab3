@@ -60,5 +60,5 @@ Part 1:
        }
      }
 
-![Image](./.png)
+![Image](./LABREPORT2.png)
 In this screenshot, I have 
