@@ -115,4 +115,4 @@ The bug and symptom is that in reversed, it was returning the original array, no
 
 ![Image](./REPORTLAB2FIXEDCODED.png)
 
-What had to be fixed was making 
+What had to be fixed was making a new variable where you add the elements to be able to return the new array. 
