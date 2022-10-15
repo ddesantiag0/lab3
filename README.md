@@ -113,6 +113,6 @@ The second bug was Reverse the failure-inducing input was:
 
 The bug and symptom is that in reversed, it was returning the original array, not the new array, after reading from an empty array. 
 
-![Image](./LABREPORT2)
+![Image](./REPORTLAB2FIXEDCODED.png)
 
 What had to be fixed was making 
