@@ -100,4 +100,4 @@ With ReverseInPlace the failure-inducing input was:
 
 The bug and the symptom is that reversedInPlace's modification of the array it was reading from, was creating a mirrored array instead of actually reversing the elements in place. 
 
-![Image](./SECONDsLABREPORT2PART2.png)
+![Image](./SECONDLABREPORT2PART2.png)
