@@ -113,4 +113,6 @@ The second bug was Reverse the failure-inducing input was:
 
 The bug and symptom is that in reversed, it was returning the original array, not the new array, after reading from an empty array. 
 
-![Image](./
+![Image](./LABREPORT2)
+
+What had to be fixed was making 
