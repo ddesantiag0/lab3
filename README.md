@@ -103,3 +103,4 @@ The bug and the symptom is that reversedInPlace's modification of the array it w
 ![Image](./LABREPORT2PARTTHESECONDONE.png)
 
 What needed to be fix was a temporary variable where the elements needed to placed in, where it wouldn't have gotten replaced by the last element and just mirrored itself. 
+
