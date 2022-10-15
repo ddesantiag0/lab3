@@ -80,3 +80,19 @@ In this screenshot, although my code doesn't not do the correct thing, the serve
 ```
 Part 2:
 ```
+
+The failure-inducing input (the code of the test)
+The symptom (the failing test output)
+The bug (the code fix needed)
+Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
+
+The two of bugs were ReverseInPlace in ArrayExamples.java and 
+
+With ReverseInPlace the failure-inducing input was:
+
+ static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+    
+    
