@@ -100,7 +100,7 @@ With ReverseInPlace the failure-inducing input was:
 
 The bug and the symptom is that reversedInPlace's modification of the array it was reading from, was creating a mirrored array instead of actually reversing the elements in place. 
 
-![Image](./
+![Image](./LABREPORT2REVERSEOUTPUT.png)
 
 What needed to be fix was a temporary variable where the elements needed to placed in, where it wouldn't have gotten replaced by the last element and just mirrored itself. 
 
@@ -110,3 +110,7 @@ The second bug was Reverse the failure-inducing input was:
 ![Image](./LABREPORT2REVERSEWRONGCODE.png)
 
 ![Image](./LABREPORT2PARTTHESECONDONE.png)
+
+The bug and symptom is that in reversed, it was returning the original array, not the new array, after reading from an empty array. 
+
+![Image](./
