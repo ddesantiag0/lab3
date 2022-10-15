@@ -90,11 +90,11 @@ The two of bugs were ReverseInPlace in ArrayExamples.java and
 
 With ReverseInPlace the failure-inducing input was:
 
- static void reverseInPlace(int[] arr) {
+' static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-    
+'   
     
 ![Image](./LABREPORT2PART2.png)
 
@@ -102,4 +102,4 @@ The bug and the symptom is that reversedInPlace's modification of the array it w
 
 ![Image](./SECONDLABREPORT2PART2.png)
 
-What needed to be fix was a temporary variable where the elements needed to placed in, where it wouldn't have gotten replaced by the last element and jsut mirrored itself. 
+What needed to be fix was a temporary variable where the elements needed to placed in, where it wouldn't have gotten replaced by the last element and just mirrored itself. 
