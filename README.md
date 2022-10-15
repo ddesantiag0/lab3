@@ -86,7 +86,7 @@ The symptom (the failing test output)
 The bug (the code fix needed)
 Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
-The two of bugs were ReverseInPlace in ArrayExamples.java and 
+The two of bugs were ReverseInPlace in ArrayExamples.java and Reversed in ArrayExamples.java
 
 With ReverseInPlace the failure-inducing input was:
 
@@ -103,4 +103,8 @@ The bug and the symptom is that reversedInPlace's modification of the array it w
 ![Image](./LABREPORT2PARTTHESECONDONE.png)
 
 What needed to be fix was a temporary variable where the elements needed to placed in, where it wouldn't have gotten replaced by the last element and just mirrored itself. 
+
+
+The second bug was Reverse the failure-inducing input was: 
+
 
