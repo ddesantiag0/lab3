@@ -60,5 +60,13 @@ Part 1:
        }
      }
 
-![Image](./LABREPORT2.png)
-In this screenshot, I have 
+Which methods in your code are called
+What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class
+If those values change, how they change by the time the request is done processing
+
+![Image](./LAB3REPORT2.png)
+
+
+In this screenshot, I have the server being started giving us the link, "http://localhost:5069" in the terminal. The first method in my code that is being called is handleRequest and the argument "URI url". The url is the localhost:5069 link that was provided in the terminal. This particular screenshot was made when it was reading the line, and determining if there is the "/" it will print out "Search Engine Activated". The link is empty and doesn't have anything but the server with the server number I had chosen in the terminal. If the URL link were to change values, like "/add?s" or "/search?s" it would create different outputs depending on the input, in less than seconds.
+
+![Image](./
