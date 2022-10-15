@@ -74,3 +74,9 @@ In this screenshot, I have the server being started giving us the link, "http://
 In this screenshot, the server was already started and running. The method that was called was handleRequest and the argument url link was "http://localhost:5069/add?s=app". There was a / detected in the link which switched to the else statement. The program found the key word value "add" which passed the first else statement. The values being called or changed are, "=" because it split the weblink into 2 at the equal sign, then it added that the string word after the equal sign it, adds it to a query. If the value were to change whether it detects add or another word, it goes through a different else statement until it finds the corect keyword found or returns "404 not found"
 
 ![Image](./LABREPORT2:SEARCH.png)
+In this screenshot, although my code doesn't not do the correct thing, the server is supposed to be searching up the strings in the new value to see if they are in the the query to be able to return those strings with the letters or phrases. The method is handleRequest and the argument url link was "http://localhost:5069/search?s=ap". Just like the previous screenshot with ADD, the search it being handled the same way except it is being replaced by search. If the values were to change, the same thing as the previous description would happen where it would go to the next step and then the next until i either finds the correct program or it returns a "404 not found". 
+
+
+```
+Part 2:
+```
