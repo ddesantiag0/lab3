@@ -3,6 +3,7 @@ import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
 
+
 class ListExamples {
 
   // Returns a new list that has all the elements of the input list for which
@@ -29,7 +30,7 @@ class ListExamples {
         result.add(list1.get(index1));
         index1 += 1;
       }
-      else {
+      else {3
         result.add(list2.get(index2));
         index2 += 1;
       }
