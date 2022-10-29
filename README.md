@@ -109,7 +109,7 @@ The second bug was Reverse the failure-inducing input was:
 
 ![Image](./LABREPORT2REVERSEWRONGCODE.png)
 
-![Image](./LABREPORT2PARTTHESECONDONE.png)
+![Image](./FIXEDCODEFORREVERSE.png)
 
 The bug and symptom is that in reversed, it was returning the original array, not the new array, after reading from an empty array. 
 
