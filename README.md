@@ -89,18 +89,13 @@ Then, explain the connection between the symptom and the bug. Why does the bug c
 The two of bugs were ReverseInPlace in ArrayExamples.java and Reversed in ArrayExamples.java
 
 With ReverseInPlace the failure-inducing input was:
-
-' static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-'   
+![Image](./REVERSEINPLACECODEWRONG.png)
     
 ![Image](./LABREPORT2PART2.png)
 
 The bug and the symptom is that reversedInPlace's modification of the array it was reading from, was creating a mirrored array instead of actually reversing the elements in place. 
 
-![Image](./LABREPORT2REVERSEOUTPUT.png)
+![Image](./REVERSEINPLACEFIXEDDCODEE.png)
 
 What needed to be fix was a temporary variable where the elements needed to placed in, where it wouldn't have gotten replaced by the last element and just mirrored itself. 
 
@@ -112,7 +107,5 @@ The second bug was Reverse the failure-inducing input was:
 ![Image](./FIXEDCODEFORREVERSE.png)
 
 The bug and symptom is that in reversed, it was returning the original array, not the new array, after reading from an empty array. 
-
-![Image](./REPORTLAB2FIXEDCODED.png)
 
 What had to be fixed was making a new variable where you add the elements to be able to return the new array. 
